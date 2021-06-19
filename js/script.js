@@ -5,10 +5,9 @@ let b=4;
 
 
 
-const newarray=array.filter(estrai);
+const newarray=array.filter((element,index,)=>{
+    return index>=a && index<=b;
+});
+console.log(newarray);
 
-
-function estrai(a,b){
-    return array[a]
-}
 
